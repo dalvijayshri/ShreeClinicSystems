@@ -1,0 +1,9 @@
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\bin\Debug\Com.Shree.ClinicSystemServices.dll
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\bin\Debug\Com.Shree.ClinicSystemServices.pdb
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\obj\Debug\Com.Shree.ClinicSystemServices.dll
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\obj\Debug\Com.Shree.ClinicSystemServices.pdb
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\obj\Debug\Com.Shree.ClinicSystemServices.csprojResolveAssemblyReference.cache
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\bin\Debug\Com.Shree.ClinicSystemDAO.dll
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\bin\Debug\Com.Shree.ClinicSystemModels.dll
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\bin\Debug\Com.Shree.ClinicSystemDAO.pdb
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemServices\bin\Debug\Com.Shree.ClinicSystemModels.pdb

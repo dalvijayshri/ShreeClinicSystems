@@ -1,0 +1,5 @@
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemModels\bin\Debug\Com.Shree.ClinicSystemModels.dll
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemModels\bin\Debug\Com.Shree.ClinicSystemModels.pdb
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemModels\obj\Debug\Com.Shree.ClinicSystemModels.dll
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemModels\obj\Debug\Com.Shree.ClinicSystemModels.pdb
+C:\Users\pajadhav\Desktop\Git\ShreeClinicSystem\ShreeClinicSystem\Com.Shree.ClinicSystemModels\obj\Debug\Com.Shree.ClinicSystemModels.csprojResolveAssemblyReference.cache

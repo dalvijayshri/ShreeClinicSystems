@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B2446AB-9F55-4251-833A-59B9426F0122}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Com.Shree.ClinicSystemControllers</RootNamespace>
+    <AssemblyName>Com.Shree.ClinicSystemControllers</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppointment.Designer.cs">
+      <DependentUpon>frmAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainConsultation.Designer.cs">
+      <DependentUpon>frmMainConsultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistration.Designer.cs">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAppointment.resx">
+      <DependentUpon>frmAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainConsultation.resx">
+      <DependentUpon>frmMainConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistration.resx">
+      <DependentUpon>frmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psd-delete-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registration60x60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgcolor_hr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgcolor_hr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Main_Screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sneha Specialty logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Com.Shree.ClinicSystemModels\Com.Shree.ClinicSystemModels.csproj">
+      <Project>{3cbc67c0-da46-41f4-8666-42af5e5ecdf3}</Project>
+      <Name>Com.Shree.ClinicSystemModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Shree.ClinicSystemServices\Com.Shree.ClinicSystemServices.csproj">
+      <Project>{19c1a4e4-a265-406a-bc0c-b92d1c3e651d}</Project>
+      <Name>Com.Shree.ClinicSystemServices</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opdimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treattLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_t.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patientedit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletepatint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
